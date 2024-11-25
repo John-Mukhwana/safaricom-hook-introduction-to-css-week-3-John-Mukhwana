@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering CSS Basics</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to External CSS -->
+    <style>
+        /* Internal CSS */
+        p {
+            text-align: justify;
+            color: darkslategray;
+        }
+
+        .section {
+            background-color: lightblue;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        #unique {
+            border: 2px solid coral;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mastering CSS Basics</h1>
+    
+    <!-- Section styled with a class -->
+    <div class="section">
+        <h2>What is CSS?</h2>
+        <p>CSS is used to style and layout web pages. It allows for greater design control over elements on the page.</p>
+    </div>
+    
+    <!-- Section styled with an ID -->
+    <div id="unique">
+        <h2>Understanding Selectors</h2>
+        <p>Explore the different types of selectors in CSS: element, class, and ID.</p>
+    </div>
+    
+    <!-- Inline CSS example -->
+    <p style="color: crimson; font-weight: bold;">This paragraph is styled using inline CSS for its color and weight.</p>
+    
+    <!-- Link styled in external CSS -->
+    <a href="#" class="styled-link">Hover over this link!</a>
+    
+    <!-- Card component -->
+    <div class="card">
+        <h3 class="card-title">Card Title</h3>
+        <p class="card-description">This is a simple card component created to practice CSS basics. It demonstrates padding, margin, and borders.</p>
+    </div>
+</body>
+</html>
